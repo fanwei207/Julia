@@ -1,0 +1,14 @@
+{
+	"Site": [
+					{ "Site":"1000" , "Domain":"SZX" },
+					{ "Site":"1200" , "Domain":"SZX" },
+					{ "Site":"1400" , "Domain":"SZX" },
+					{ "Site":"1500" , "Domain":"SZX" },
+					{ "Site":"2000" , "Domain":"ZQL" },
+					{ "Site":"2100" , "Domain":"ZQL" },
+					{ "Site":"3000" , "Domain":"ZQZ" },
+					{ "Site":"4000" , "Domain":"YQL" }
+					{ "Site":"4100" , "Domain":"YQL" }
+					{ "Site":"5000" , "Domain":"HQL" }
+		    ]
+}

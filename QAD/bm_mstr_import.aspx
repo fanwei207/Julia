@@ -1,0 +1,164 @@
+<%@ Page Language="vb" AutoEventWireup="false" Inherits="tcpc.bm_mstr_import" CodeFile="bm_mstr_import.aspx.vb" %>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head id="Head1" runat="server">
+    <title></title>
+    <link media="all" href="../css/main.css" rel="stylesheet" />
+    <script language="JavaScript" src="../script/jquery-latest.js" type="text/javascript"></script>
+    <script language="JavaScript" src="../script/julia.object.js" type="text/javascript"></script>
+    <script language="JavaScript" src="../script/julia.validate.js" type="text/javascript"></script>
+    <script language="JavaScript" src="../script/julia.common.js" type="text/javascript"></script>
+</head>
+<body>
+    <div align="center">
+        <form id="Form1" method="post" runat="server">
+        <table cellspacing="0" cellpadding="0" width="760" bgcolor="white" border="0">
+            <tr>
+                <td align="center">
+                    <table style="width: 760px; height: 100px" cellpadding="0" bgcolor="#ccffff">
+                        <tr>
+                            <td colspan="2">
+                                <font face="Verdana, Arial, Helvetica, sans-serif" color="#cc0000"><b>导入变更申请的格式如下：</b><br>
+                                    <table height="20" cellspacing="0" cellpadding="2" width="100%" border="0">
+                                        <tr>
+                                            <td width="20%">
+                                                <font face="Verdana, Arial, Helvetica, sans-serif"><b>父件QAD</b></font>
+                                            </td>
+                                            <td width="20%">
+                                                <font face="Verdana, Arial, Helvetica, sans-serif"><b>老子件QAD</b></font>
+                                            </td>
+                                            <td width="20%">
+                                                <font face="Verdana, Arial, Helvetica, sans-serif"><b>新子件QAD</b></font>
+                                            </td>
+                                            <td width="15%">
+                                                <font face="Verdana, Arial, Helvetica, sans-serif"><b>单件需求量</b></font>
+                                            </td>
+                                            <td width="15%">
+                                                <font face="Verdana, Arial, Helvetica, sans-serif"><b>废品率</b></font>
+                                            </td>
+                                            <td width="10%">
+                                                <font face="Verdana, Arial, Helvetica, sans-serif"><b>工序</b></font>
+                                            </td>
+                                        </tr>
+                                        <tr bgcolor="#eceef7">
+                                            <td width="20%">
+                                                11011851000180
+                                            </td>
+                                            <td width="20%">
+                                                20011950000030
+                                            </td>
+                                            <td width="20%">
+                                                20011950000010
+                                            </td>
+                                            <td width="15%">
+                                                1
+                                            </td>
+                                            <td width="15%">
+                                                0
+                                            </td>
+                                            <td width="10%">
+                                                1010
+                                            </td>
+                                        </tr>
+                                        <tr bgcolor="#eceef7">
+                                            <td width="20%">
+                                                11011865000010
+                                            </td>
+                                            <td width="20%">
+                                                NoQad
+                                            </td>
+                                            <td width="20%">
+                                                20011965000050
+                                            </td>
+                                            <td width="15%">
+                                                1
+                                            </td>
+                                            <td width="15%">
+                                                0
+                                            </td>
+                                            <td width="10%">
+                                                1010
+                                            </td>
+                                        </tr>
+                                        <tr bgcolor="#eceef7">
+                                            <td width="20%">
+                                                NoParent
+                                            </td>
+                                            <td width="20%">
+                                                20011950000010
+                                            </td>
+                                            <td width="20%">
+                                                20011965000050
+                                            </td>
+                                            <td width="15%">
+                                                1
+                                            </td>
+                                            <td width="15%">
+                                                0
+                                            </td>
+                                            <td width="10%">
+                                                1010
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </font>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <table cellspacing="2" cellpadding="2" width="760" bgcolor="white" border="0">
+            <tr>
+                <td align="right" width="90">
+                    文件类型: &nbsp;
+                </td>
+                <td valign="top" width="500" colspan="2">
+                    <asp:DropDownList ID="FileTypeDropDownList1" runat="server" Width="300px" AutoPostBack="True">
+                    </asp:DropDownList>
+                </td>
+            </tr>
+            <tr>
+                <td height="5">
+                </td>
+            </tr>
+            <tr>
+                <td align="right" width="90">
+                    导入文件: &nbsp;
+                </td>
+                <td valign="top" width="500" colspan="2">
+                    <input id="filename1" style="width: 487px; height: 22px" type="file" size="45" name="filename1"
+                        runat="server"><br>
+                </td>
+            </tr>
+            <tr>
+                <td height="5">
+                </td>
+            </tr>
+            <tr>
+                <td align="right" width="90">
+                    <font size="3">下载：</font>
+                </td>
+                <td align="left" width="135">
+                    <label id="here" onclick="submit();">
+                        <a href="/docs/bm_mstr_import.xls" target="blank"><font color="blue">导入变更申请的模版</font></a></label>
+                </td>
+                <td align="center">
+                    <input class="SmallButton2" id="uploadPartBtn" style="width: 100px" type="button"
+                        value="导入" name="uploadPartBtn" runat="server">
+                    <asp:Button ID="btnRet" runat="server" Text="返回" CssClass="SmallButton2" Width="100">
+                    </asp:Button>
+                </td>
+            </tr>
+        </table>
+        </form>
+    </div>
+    <script>
+			<asp:Literal id="ltlAlert" runat="server"  EnableViewState="False"></asp:Literal>
+    </script>
+</body>
+</html>

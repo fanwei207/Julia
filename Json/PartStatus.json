@@ -1,0 +1,10 @@
+﻿[
+	{ "Code":"ACTIVE", "Desc":"正常使用"},
+	{ "Code":"NEW", "Desc":"新零件"},
+	{ "Code":"NOCOST_A", "Desc":"无成本，可用"},
+	{ "Code":"NOCOST_B", "Desc":"无成本，不可用"},
+	{ "Code":"NOCOST_N", "Desc":"无成本，新品"},
+	{ "Code":"NOPO", "Desc":"停止采购"},
+	{ "Code":"UPDATE", "Desc":"版本升级"},
+	{ "Code":"STOP", "Desc":"物料停用"}
+]

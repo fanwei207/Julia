@@ -1,0 +1,1176 @@
+﻿body
+{
+	margin: 0;
+	padding:0;
+	width: 100%;
+	font-size:9pt;
+	font-family:Calibri, 微软雅黑;
+}
+form
+{
+  margin-top: 0em;
+  margin-bottom:auto;
+}
+table,div,span
+{
+	padding:0;
+	font-size:9pt;
+}
+/* Add By Shanzm 2014-03-25 */
+.datepicker { border-collapse: collapse; border: 2px solid #999; position: absolute; }
+.datepicker tr.controls th { height: 22px; font-size: 11px; }
+.datepicker select { font-size: 11px; }
+.datepicker tr.days th { height: 18px; }
+.datepicker tfoot td { height: 18px; text-align: center; text-transform: capitalize; }
+.datepicker th, .datepicker tfoot td { background: #eee; font: 10px/18px Verdana, Arial, Helvetica, sans-serif; }
+.datepicker th span, .datepicker tfoot td span { font-weight: bold; }
+
+.datepicker tbody td { width: 24px; height: 24px; border: 1px solid #ccc; font: 11px/22px Arial, Helvetica, sans-serif; text-align: center; background: #fff; }
+.datepicker tbody td.date { cursor: pointer; }
+.datepicker tbody td.date.over { background-color: #99ffff; }
+.datepicker tbody td.date.chosen { font-weight: bold; background-color: #ccffcc; }
+
+/* top*/
+
+#trTop
+{
+    height: 55px;
+}
+
+#top
+{
+	background: url(../images/tcp_top01.gif) repeat-x;
+	background-position: 0 0;
+	z-index:-1;
+	width:100%;
+}
+
+#top_logo
+{
+	background: url(../images/tcp_Logo.gif) no-repeat;
+	background-position: left;
+    float:left;
+}
+
+#top_slogan
+{
+
+	background-position:left;
+	float: left;
+}
+
+#top_right
+{
+	background: url(../images/tcp_top02.gif) no-repeat;
+	background-position: right;
+	float: right;
+	display: block;
+}
+
+
+#LeftNav
+{
+	background: url(../images/bg_nav.png);
+	background-repeat:repeat-x;
+	height:28px;
+	background-position: top;
+	color:#2d3f4b;
+	border-left:1px solid #c4ccce;
+	border-right:1px solid #c4ccce;
+    padding-left:5px;
+    line-height:30px;
+    font-size:12px;
+}
+
+
+
+/*
+	Menu
+*/
+
+#divNav ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+	display:block;
+}
+
+#divNav ul li
+{
+	position: relative;
+    border-left: 1px solid #c4ccce;
+    border-right: 1px solid #c4ccce;
+	background:#f1faf7;
+	width: 99%;
+	z-index:1;
+}
+
+.divNav ul li
+{
+	position: relative;
+    border-left: 1px solid #b3b3b3;
+    border-right: 1px solid #d0d4d7;
+	background:white;
+	width: 99%;
+	z-index:1;
+}
+
+#divNav li ul
+{
+	position: absolute;
+	top: 0;
+	display: none;
+	z-index:1;
+}
+
+#divNav li ul li a
+{
+	display: block;
+	text-decoration: none;
+	color:#2d3f4b;
+	background:#f1faf7;
+	padding:6px;
+}
+
+#divNav ul li a
+{
+	display: block;
+	margin:auto;
+	background:url(../images/wenjian.gif) no-repeat;
+    background-position:10px center;
+	text-decoration: none;
+	color:#2d3f4b;
+	padding-left:35px;
+	padding-top:5px;
+	padding-bottom:6px;
+	border-bottom:1px solid #f3f3f1;
+	border-top:1px solid #e3ece9;
+	font-family:微软雅黑, Arial;
+	font-size:11px;
+}
+
+#divNav a:hover
+{
+	background-color: #d8e3f5;
+	color:#295f8d;
+
+}
+
+#divNav a:active
+{
+	background-color: #d8e3f5;
+	color:#295f8d;
+
+}
+
+
+
+
+/*
+	标签
+*/
+.RightNav
+{
+      width: 100%;
+      height:25px;
+      border-bottom: #d2d2d2 1px solid;
+      border-top:1px solid white;
+	  text-align: center;
+	  background-color:#edeeed;
+}
+
+.RightNav_blue
+{
+      width: 100%;
+      height:25px;
+      border-top:1px solid white;
+	  text-align: center;
+	  background-image:url(../images/nav_blue.png);
+	  background-repeat:repeat-x;
+}
+#RightNav ul
+{
+	margin:0px;
+	padding:0px;
+    list-style:none;
+	line-height:24px;
+    list-style-position:outside;
+}
+#RightNav li 
+{
+  display:inline;
+  margin:0;
+  padding : 0 0 0 5;
+  line-height:24px;
+  background:url(../images/tab-bg.png) repeat-x left -25px;
+}
+#RightNav li a {
+  float:left;
+  background:url(../images/tab-left.png) no-repeat left -25px;
+  margin-left:1px;
+  padding: 0 0 0 4px;
+  text-decoration:none;
+  text-align:center;
+  cursor:hand;
+  height:25px;
+  _width:24px;/* for ie6 */
+}
+
+#RightNav a span 
+{	
+	float:left;
+	display:block;
+	background:url(../images/teb-right.png) no-repeat right -25px;
+	color:white;
+	margin-top:0px;
+	font-weight:bold;
+	height:25px;
+	_width:156px;/* for ie6 */
+}
+
+#RightNav a .close 
+{
+	font-size: 5pt;
+	color: #000000;
+	font-family: 宋体;
+}
+
+#RightNav a span:hover
+{
+	color:Black;
+	text-decoration:none;
+}
+
+#RightNav a span {float:none;}
+/* End IE5-Mac hack */
+#RightNav a:hover span {
+  color:#000;
+  }
+  
+#RightNav a:hover {
+  background-position:0% -50px;
+  }
+  
+#RightNav a:hover span {
+  background-position:100% -50px;
+  }
+  
+#RightNav .tab_selected a
+{
+	background-position:0% 0px;
+	}
+#RightNav .tab_selected a span
+{
+	background-position:100% 0px;
+	}
+
+/*
+	Design By Chenzq 2013.01.13
+	GridView & DataGrid Style
+*/
+
+
+.GridViewStyle
+{
+	border: 1px solid #b8d2f0;
+	font-size:9pt;
+	cursor:default;
+}
+
+.GridViewStyle A
+{
+	color: Black;
+	font-family: Tahoma, Calibri;
+	text-decoration:underline;
+	font-size:12px;
+}
+
+.GridViewStyle A:Link
+{
+	color: Black;
+	font-family: Tahoma, Calibri;
+	text-decoration: none;
+}
+
+.GridViewStyle A:hover
+{
+	color: Black;
+	text-decoration: underline;
+	font-family: Tahoma, Calibri;
+}
+
+.GridViewStyle A:visited
+{
+	font-weight: bold;
+	color: Black;
+	font-family: Tahoma, Arial;
+	text-decoration: none;
+}
+
+
+.GridViewStyle .GridViewHeaderStyle td, .GridViewStyle .GridViewHeaderStyle th
+{
+	border: 1px solid #b8d2f0;
+	font-weight: bold;
+	text-align:center;
+}
+
+.GridViewStyle .GridViewHeaderStyle
+{
+	background: url(../images/bg_gv.gif) repeat-x;
+	color: black;
+	font-size: 11px;
+	height: 27px;
+}
+
+
+.GridViewStyle .GridViewFooterStyle
+{
+	background: url(../images/bg_gv.gif) repeat-x;
+	font-size: 11px;
+	height: 27px;
+	border:1px solid #b8d2f0;
+}
+
+
+.GridViewStyle .GridViewFooterStyle a
+{
+    font-size:14px;
+	line-height:14px;
+	text-decoration: none;
+	color: #599dfd;
+	width: auto;
+	padding: 2px 2px 2px 2px;
+	display: block;
+	float:left;
+}
+
+.GridViewStyle .GridViewFooterStyle span
+{
+    display:block;
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+.GridViewStyle .GridViewFooterStyle input
+{
+    display:block;
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+.GridViewStyle .GridViewRowStyle
+{
+	background-color: #FFFFFF;
+	color: black;
+}
+
+.GridViewStyle .GridViewAlternatingRowStyle
+{
+	background-color: #FFFFFF;
+	color: #284775;
+}
+
+
+.GridViewStyle .GridViewRowOverStyle
+{
+	background-color: #E1FCCE;
+}
+
+.GridViewStyle .GridViewColOverStyle
+{
+	background-color: #E1FCCE;
+}
+
+.GridViewStyle .GridViewRowSelectedStyle
+{
+	background-color: #D0FBB1;
+}
+
+.GridViewStyle .GridViewColSelectedStyle
+{
+	background-color: #D0FBB1;
+}
+
+.GridViewStyle .GridViewRowStyle td, .GridViewStyle .GridViewAlternatingRowStyle td
+{
+	border: 1px solid #b8d2f0;
+}
+
+.GridViewStyle .GridViewRowStyle td span, .GridViewStyle .GridViewAlternatingRowStyle td span
+{
+    font-size:11px;
+}
+
+.GridViewStyle .GridViewSelectedRowStyle
+{
+	background-color: #E2DED6;
+	color: #333333;
+	border: 1px solid #b8d2f0;
+}
+
+.GridViewStyle .GridViewPagerStyle
+{
+	background-image: url(../images/bg_gv.gif);
+	background-repeat:repeat-x;
+	color: #FFFFFF;
+	height: 27px;
+	text-align:left;
+}
+
+.GridViewStyle .GridViewPagerStyle table /**/ /* to center the paging links*/
+{
+	height:27px;
+}
+
+.GridViewStyle .GridViewPagerStyle td a
+{
+	margin: 0 auto 0 auto;
+}
+
+/* Liu Yi*/
+.GridViewStyle .GridViewPagerStyle TD SPAN
+{
+	font-size: 14px;
+	color:#000000;
+    line-height:14px;
+    text-decoration: underline;
+    width:auto;
+    padding: 2px 2px 2px 2px;
+
+
+}
+.GridViewStyle .GridViewPagerStyle TABLE  TD SPAN
+{
+	font-size: 14px;
+	color:#000000;
+    line-height:14px;
+    text-decoration: underline;
+    width:auto;
+    padding: 2px 2px 2px 2px;
+    display:block;
+}
+
+.GridViewStyle .GridViewPagerStyle A
+{
+	color: black;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+ .GridViewStyle .GridViewStyle SELECT
+{
+  font-size:12px;
+  font-family:Tahoma, Calibri;
+  } 
+
+/* Form_fieldset */
+
+.form01
+{
+	background: white;
+	border: 1px solid #cccccc;
+}
+
+.form_title01
+{
+	font-family: 微软雅黑;
+	font-size: 12px;
+	color: #03479b;
+}
+
+.form_content01
+{
+	padding-left:2px;
+	padding-bottom: 2px;
+	margin-top: 3px;
+	font-family: 微软雅黑;
+	font-size: 12px;
+	color: #2b4973;
+}
+
+.form_conternt02
+{
+	padding-left: 1px;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-family: 微软雅黑;
+	font-size: 12px;
+	color: #2b4973;
+}
+
+.font_title02
+{
+	font-family: 微软雅黑;
+	font-size: 13px;
+	color: #03479b;
+	font-weight: bold;
+}
+
+
+
+/*
+	首页页脚
+*/
+.footer
+{
+	width:100%;
+	margin:auto;
+	text-align: center;
+    font-size:12px;	
+    background:#e2edef;
+    line-height:20px;
+    z-index:-1;
+    height:20px;
+}
+
+
+/*
+	按钮
+*/
+
+/*input[type="submit"] {
+        text-align: center;
+        cursor: pointer;
+        padding: 0;
+        font-weight:normal;
+        font-size: 11px;
+        display: inline-block;
+        vertical-align: baseline;
+        line-height: 25px;
+        outline: 0;
+        font-family:微软雅黑, Arial;
+        background-image:url(../images/bg_button_new.jpg);
+        background-repeat:repeat-x;
+    }*/
+
+    
+    .SmallButton3, .SmallButton2
+    {   
+        text-align: center;
+        cursor: pointer;
+        padding: 0;
+        font-weight:normal;
+        font-size: 11px;
+        display: inline-block;
+        vertical-align: baseline;
+        outline: none;
+        font-family:微软雅黑, Arial;
+        background-image:url('../images/bg_button_new.jpg');
+        background-repeat:repeat-x;
+        border-left:1px solid #d7d7d7;
+        border-right:1px solid #d7d7d7;
+        background-position: 0 0;
+        border-top-style: none;
+        border-top-color: inherit;
+        border-top-width: 0;
+        border-bottom-style: none;
+        border-bottom-color: inherit;
+        border-bottom-width: 0;
+        height:25px;
+        *height:26px; /* for ie7 */
+        _height:27px; /* for ie6 */
+        width:60px;
+}
+
+.SmallButton3:hover, .SmallButton2:hover
+{
+        background-position: 0 -27px;
+        height:25px;
+        *height:26px; /* for ie7 */
+        _height:27px; /* for ie6 */
+        border-left:1px solid #94bdf0;
+        border-right:1px solid #94bdf0;
+        border-top:0 none;
+        border-bottom:0 none;
+        width:60px;
+    }
+
+ .LoginButton
+  {
+    width: 250px;
+    background-position: 0 -54px;
+    height: 29px;
+    border:none;
+    color:#fff;
+    font-size:11px;
+  }
+    
+    .LoginButton:Hover
+    {
+		background-position: 0 -85px; 
+		width: 250px; 
+		height: 29px;
+		border:none;
+		color:#fff;
+		font-size:11px;
+    }
+    
+    .LoginButton1{
+    width: 250px;
+    background-image:url(../images/bg_button.gif);
+    background-position: 0 -54px;
+    background-repeat:no-repeat;
+    height: 29px;
+    border:none;
+    color:#fff;
+    font-size:11px;
+    font-family:微软雅黑, Arial;
+    }
+    
+    .LoginButton1:hover{
+    width: 250px;
+    background-image:url(../images/bg_button.gif);
+    background-position: 0 -85px; 
+    background-repeat:no-repeat;
+    height: 29px;
+    border:none;
+    color:#fff;
+    font-size:11px;
+    }
+    
+    /*
+	   textbox
+   */
+   input[type="text"], input[type="password"], input[type="file"]
+   {
+     background:#ffffff;
+     border: 1px solid #cccccc;
+     vertical-align: middle;
+     outline: none;	
+     border-radius: 3px;
+     -moz-border-radius: 3px;
+     -webkit-border-radius: 3px;
+     transition: border linear 0.4s, box-shadow linear 0.4s;
+     -o-transition: border linear 0.4s, box-shadow linear 0.4s;
+     -moz-transition: border linear 0.4s, box-shadow linear 0.4s;
+     -webkit-transition: border linear 0.4s, box-shadow linear 0.4s;
+   }
+
+
+    input[type="text"]:focus, input[type="password"]:focus
+    {
+      border: 1px solid;
+      border-color:rgba(82, 168, 236, 0.8);
+      color: #444;
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(81, 168, 236, 0.5);
+      -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(81, 168, 236, 0.5);
+      -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(81, 168, 236, 0.5); 
+    }
+    
+    input[type="text"]:hover, input[type="password"]:hover
+    {
+        border:1px solid #52a8ec\0; /* ie8 */
+    }
+    
+     input[type="text"]:hover, input[type="password"]:hover
+    {
+        *border:1px solid #52a8ec; /* ie7 */
+    }
+    
+    
+    .SmallTextBox5
+  {
+    border: 1px solid rgb(126, 157, 185); 
+    font:11px;
+    padding: 2px; 
+    background: #F7F6F3;
+    -moz-background-clip: -moz-initial; 
+    -moz-background-origin: -moz-initial; 
+    -moz-background-inline-policy: -moz-initial;
+   }
+    
+    #txtRemark
+   {
+     background:#ffffff;
+     border: 1px solid #cccccc;
+     vertical-align: middle;
+     outline: none;	
+     border-radius: 3px;
+     -moz-border-radius: 3px;
+     -webkit-border-radius: 3px;
+     transition: border linear 0.4s, box-shadow linear 0.4s;
+     -o-transition: border linear 0.4s, box-shadow linear 0.4s;
+     -moz-transition: border linear 0.4s, box-shadow linear 0.4s;
+     -webkit-transition: border linear 0.4s, box-shadow linear 0.4s;
+   }
+
+
+
+/*
+	桌面图标
+*/
+
+.icon {
+    position: absolute;
+     display:block;
+     float:left;
+     margin-left:10px;
+    background: url(../images/trans_white.jpg) no-repeat;
+    background-position:top center;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -webkit-background-clip: padding-box;
+    color: #000;
+    font-size: 11px;
+    font-family:微软雅黑, Arial;
+    text-decoration:none;
+    padding: 6px 1px 6px;
+    text-align: center;
+    width: 80px;
+    z-index:10;
+}
+
+.icon img {
+    background: url(../images/) no-repeat;
+    display: block;
+    margin: 0 auto 5px;
+    width: 45px;
+    height: 45px;
+    border:0 0 0 0;
+}
+
+.icon:hover {
+    background: url(../images/123.jpg);
+    background-repeat:no-repeat;
+    background-position:top center;
+}
+    
+   /*
+     Desk Container
+*/ 
+    #divContainer
+{
+	width:100%;
+	height:100%;
+	
+}
+
+#divContainer a:hover
+{
+	color:#1682b6;
+}
+    
+.Desk_Container
+{
+	border:1px solid #cccccc;
+	float:right;
+	margin-right:10px;
+	margin-top:10px;
+}
+
+.Desk_Container2
+{
+	border-bottom:1px solid #cccccc;
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+	background:#f5f5f5;
+}
+
+.EmptyButton
+{
+	background-image:url(../images/button_77.gif);
+	background-repeat:no-repeat;
+	font-family:微软雅黑, Arial;
+	font-size:11px;
+	border:none;
+	width:60px;
+	height:22px;
+	cursor:pointer;
+	text-align: center;
+}
+
+.EmptyButton:hover
+{
+	background-image:url(../images/button_hove.gif);
+	background-repeat:no-repeat;
+	width:60px;
+	height:22px;
+	border:none;
+	cursor:pointer;
+	text-align: center;
+	font-family:微软雅黑, Arial;
+	font-size:11px;
+}
+
+/* 
+   tab
+*/
+
+.tab-page
+{
+	background-color: #fff;
+	color: #888;
+	display:block;
+	position: absolute;
+	top: 36px;
+	height: auto;
+	width: 100%;
+	float: left;
+	padding: 5px;
+	border: 1px solid #cfd2d7;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	box-shadow: 0 1px 3px rgba(0,0,0,.3);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.3);
+}
+
+.TabStrip{
+	float: left;
+	position: relative;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	color: #888;
+	margin-top:0px;
+	margin-right: 1.0%;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+}
+
+ .tab:checked  .tab:active
+{
+	background-color: #fff;
+	z-index: 100;
+}
+
+/*
+  main content
+*/
+
+.main_top
+{
+    background-image:url(../images/bg_tb2.jpg);
+    background-repeat:repeat-x; 
+    height:35px; 
+    font-family:微软雅黑;
+    margin:2px auto; 
+}
+
+.main_left
+{
+     width:3px; 
+     background-image:url(../images/bg_tb1.jpg); 
+     background-repeat:no-repeat;  
+}
+.main_right
+{
+    width:3px; 
+    background-image:url(../images/bg_tb3.jpg); 
+    background-repeat:no-repeat;
+}
+
+.main_top_gray
+{
+    background-image:url(../images/bg_tb2_blue.jpg);
+    background-repeat:repeat-x; 
+    height:35px; 
+    font-family:微软雅黑;
+    margin:2px auto; 
+}
+
+.main_left_gray
+{
+     width:3px; 
+     background-image:url(../images/bg_tb1_blue.jpg); 
+     background-repeat:no-repeat;  
+}
+.main_right_gray
+{
+    width:3px; 
+    background-image:url(../images/bg_tb3_blue.jpg); 
+    background-repeat:no-repeat;
+}
+
+/*
+  main content2
+*/
+
+.MainContent_outer
+{
+     background-color:#b8d2f0;  
+     margin-top:4px; 
+     padding-top:2px; 
+     padding-bottom:2px;
+}
+
+.MainContent_inner
+{
+    margin:auto; 
+    border:2px solid white; 
+    background-color:#f4f4f4;
+}
+
+.MainContent_top
+{
+    background: url(../images/bg_gv.gif) repeat-x;
+	font-size: 14px;
+    font-weight:bold;
+	height: 27px;
+ }
+
+.table02
+{
+    background-image:url(../images/bg_tb17.jpg);
+    background-repeat:repeat-x; 
+    margin-top:20px;
+}
+.table02_td_left
+{
+    width:4px; 
+    background-image:url(../images/bg_tb16.jpg); 
+    background-repeat:no-repeat; 
+    background-position:left top;
+}
+.table02_td_right
+{
+    width:4px; 
+    background-image:url(../images/bg_tb18.jpg); 
+    background-repeat:no-repeat; 
+    background-position:right top;
+}
+
+.table03
+{
+    margin:20px auto; 
+    background-color:#d4d4d4; 
+    padding-top:2px; 
+    padding-bottom:2px;
+}
+
+.table03_legend
+{
+    padding-left:2px;
+}
+
+.table04_container
+{
+    border:1px solid #bababa;
+    margin-top:2px;
+}
+
+.table04
+{
+    margin-top:2px; 
+    background-color:#ececec;
+}
+
+ /*
+  Import Module 导入模块
+*/
+
+.main_import
+{
+   background-color: White; 
+   margin-top:20px; 
+   border:1px solid #bababa; 
+}
+
+.main_import_img
+{
+    height:30px;
+    border-bottom:1px solid #bababa; 
+    background-image:url(../images/daoru.jpg); 
+    background-repeat:no-repeat; 
+    padding-left:25px;
+}
+
+.main_import_fieldset
+{
+    background-color:#e5e5e5;
+}
+
+.fieldset_exp
+{
+    background:gray; 
+    color:White;
+}
+
+.table05
+{
+    margin-top:2px; 
+    background-image: url(../images/table05.jpg);
+	background-repeat:repeat;
+	border-top: 1px solid #b8d2f0;
+	border-left: 1px solid #b8d2f0;
+	border-right: 1px solid #b8d2f0;
+	border-bottom: 1px solid white;
+}
+
+/*
+    winow
+*/
+#j-modal-dialog {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border: 0;
+    top: 0;
+    z-index: 999999;
+}
+
+    #j-modal-dialog .modal-dialog-panel {
+        position: absolute;
+        background-color: #E0ECFF;
+        border: 1px solid #95B8E7;
+        text-align: left;
+        padding: 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        border-radius: 5px 5px 5px 5px;
+    }
+
+    #j-modal-dialog .modal-dialog-header {
+        background: transparent;
+        padding: 0px 0px 6px 0px;
+        overflow: hidden;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #95B8E7;
+        border-width: 0 0 1px 0;
+    }
+
+    #j-modal-dialog .modal-dialog-body {
+        height: 100%;
+        border-color: #95B8E7;
+        border-width: 1px;
+        border-style: solid;
+        border-top-width: 0px;
+        background-color: #fff;
+        color: #000;
+        font-size: 12px;
+    }
+
+    #j-modal-dialog .modal-dialog-title {
+        width: 100%;
+        position: relative;
+        font-size: 12px;
+        font-weight: bold;
+        color: #0E2D5F;
+        line-height: 16px;
+        float: left;
+        padding-left: 18px;
+    }
+
+    #j-modal-dialog .modal-dialog-icon {
+          position: absolute;
+          width: 16px;
+          height:16px;
+          overflow: hidden;
+    }
+
+    #j-modal-dialog .modal-dialog-tool {
+        position: absolute;
+        height: 16px;
+        overflow: hidden;
+        right: 7px;
+        width: auto;
+    }
+
+        #j-modal-dialog .modal-dialog-tool a {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            opacity: 0.6;
+            filter: alpha(opacity=60);
+            margin: 0 0 0 2px;
+            vertical-align: top;
+        }
+
+            #j-modal-dialog .modal-dialog-tool a:hover {
+                opacity: 1;
+                filter: alpha(opacity=100);
+                background-color: #eaf2ff;
+                -moz-border-radius: 3px 3px 3px 3px;
+                -webkit-border-radius: 3px 3px 3px 3px;
+                border-radius: 3px 3px 3px 3px;
+            }
+
+    #j-modal-dialog .modal-dialog-mask {
+        width: 100%;
+        height: 100%;
+        opacity: .8;
+        filter: alpha(opacity=100);
+        -moz-opacity: 1;
+        background-color: #e6e4e4;
+        position: absolute;
+    }
+
+    #j-modal-dialog .modal-dialog-iframe {
+        width: 100%;
+        height: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+
+/*
+图标：Icons
+*/
+.icon_accept
+{
+    width:16px;
+    height:16px;
+    background:url('../images/icons/accept.png') no-repeat center center;
+}
+.icon_add
+{    
+    width:16px;
+    height:16px;
+    background:url('../images/icons/add.png') no-repeat center center;
+}
+.icon_cycle
+{
+    width:16px;
+    height:16px;
+    background:url('../images/icons/cycle.png') no-repeat center center;
+}
+.icon_delete
+{
+    width:16px;
+    height:16px;    
+    background:url('../images/icons/delete.png') no-repeat center center;
+}
+.icon_error
+{
+    width:16px;
+    height:16px;    
+    background:url('../images/icons/error.png') no-repeat center center;
+}
+.icon_help
+{
+    width:16px;
+    height:16px;
+    background:url('../images/icons/help.png') no-repeat center center;
+}
+.icon_process
+{
+    width:16px;
+    height:16px;
+    background:url('../images/icons/process.png') no-repeat center center;
+}
+.icon_clock
+{
+    width:16px;
+    height:16px;
+    background:url('../images/icons/clock.png') no-repeat center center;
+}
+.icon-no
+{
+    width: auto;
+    background: url('../images/icons/no.png') no-repeat;
+}
+.icon-folder
+{
+    width: auto;
+    background: url('../images/icons/folder.png') no-repeat;
+}

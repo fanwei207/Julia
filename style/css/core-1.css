@@ -1,0 +1,1020 @@
+﻿*{word-break:break-all;}
+/*字体大小-标题*/
+.g-font-h1{font-size: 17px;}
+.g-font-h2{font-size: 18px;}
+.g-font-h3{font-size: 19px;}
+.g-font-h4{font-size: 20px;}
+.g-font-h5{font-size: 21px;}
+.g-font-h6{font-size: 22px;}
+.g-full h1{font-size: 20px;}
+.g-full h2{font-size: 19px;}
+.g-full h3{font-size: 18px;}
+.g-full h4{font-size: 17px;line-height: 20px;}
+.g-full h5{font-size: 16px;}
+.g-full h6{font-size: 15px;}
+
+/*字体大小-正文*/
+.g-font-xs{font-size: 10px;}
+.g-font-sm{font-size: 12px !important;}
+.g-font-md{font-size: 14px;line-height: 20px;}
+.g-font-lg{font-size: 17px;line-height: 20px;}
+
+/*盒子规范*/
+.g-box{padding:10px !important;line-height: 20px;}
+.g-tbox{padding:0px !important;}
+.g-box-border{border: 1px #dadada solid}
+.g-box-shadow{box-shadow:3px 1px 4px #BFBFBF}
+.g-box-radius{border-radius: 4px;}
+.g-box-margin{margin-top:10px !important;}
+
+/*字体颜色*/
+.g-color-note{color: #a3a3a3}
+.g-color-text{color: black}
+.g-color-succ{color:#45db5e;}
+.g-color-fail{color:#ff3822;}
+.g-color-em{color: #ff3822 !important}
+
+/*背景颜色*/
+.g-bg-main{background: #F0F0F0 !important}
+.g-bg-sec{background: white}
+.g-bg-note{background: #F0F0F0}
+.g-bg-btn{background: #009FC7;}
+.g-bg-wait{background: #C2C2C2;font-size: 12px;}
+.g-bg-wait:hover{background: #C2C2C2;}
+.g-bg-wait:active{background: #C2C2C2  !important;}
+
+/*基于dl的表单*/
+.g-form dt{padding-bottom: 5px;font-weight: normal;}
+.g-form dd{margin-bottom: 10px;}
+.g-form .g-form-require{color: red}
+.g-form .g-form-tip{float: right;font-size: 12px;}
+.g-form .g-form-note{font-size: 12px;color: #a3a3a3}
+.g-form .g-form-tip-error{color: white;background: red;border-radius: 3px;}
+.g-form .g-form-link{}
+
+/*兼容手机，清楚横向滚动*/
+.g-row{margin: 0px;}
+.g-col{margin: 0px;padding:0px;}
+.g-full{width: 100%;height: 100%;}
+
+
+/*顶部提示成功或者失败*/
+.g-header-label{color: #017AFF;font-weight: bold;padding: 10px 20px 10px 20px;line-height: 2em;position: relative;padding-left: 50px;}
+.g-header-label img{width: 30px;display: inline-block;position: absolute;left: 15px;top: 10px;}
+
+/*按钮组件*/
+.g-btn{border:1px #21486f solid;background: #21486f;color: white;border-radius: 3px;display: block;padding: 12px;text-align: center;font-size: 15px;cursor: pointer;width: 100%;}
+.g-btn:hover{opacity: 0.8}
+.g-inline-btn{border:1px #009FC7 solid;background: #009FC7;color: white;border-radius: 3px;display: inline-block;padding: 3px;text-align: center;font-size: 15px;cursor: pointer;}
+.g-btn-cancel{ background: white;color: #009fc5;border: 1px #00a0c6 solid}
+.g-btn-add{ background: white;color: #009fc5;border: 1px dashed #dbdbdb;display: inline-block;text-align:center;width: 100%;padding: 10px;cursor: pointer;
+}
+.g-btn-remove{ background: #BDBDBD;color: white;border: 1px solid #BDBDBD;display: inline-block;text-align:center;width: 100%;padding: 10px;cursor: pointer;
+}
+.g-bottom{position: fixed;bottom: -3px;left: 0px;width: 100% !important;z-index: 11}
+.g-bottom .icon_butblue2{margin:0px auto; max-width: 780px;}
+.g-bottom .g-bottom-inner{margin:0px auto; max-width: 780px;}
+.g-bottom>.g-btn{max-width: 780px;margin:0px auto;}
+.g-bottom>.row{max-width: 780px;margin:0px auto;background: #546468;}
+.g-bottom.g-bottom-bg .g-btn{padding:7px 3px 7px 3px;}
+.g-bottom.g-bottom-bg .g-bottom-left{position: relative;padding-left: 0px;background:#e6e6e6;}
+.g-bottom.g-bottom-bg .g-bottom-right{padding-left: 0px;padding-right:0px;position: relative;}
+.g-bottom.g-bottom-bg .g-bottom-left .share{position: absolute;right:-20px; top: 5px;height: 30px;border-left: 1px #008eb3 solid;padding-left: 4px;width: 75px;padding-top: 4px}
+.g-bottom.g-bottom-bg .g-bottom-left .share img{width: 30px;}
+.g-bottom.g-bottom-bg{background: #e6e6e6;padding:5px 16px 12px 16px;border-top: 1px #d8d8d8 solid}
+.g-bottom.g-bottom-bg>div{position: relative;max-width: 780px;margin:0px auto;}
+.g-bottom.g-bottom-bg>div .share{position: absolute;right:-35px; top: 5px;height: 30px;border-left: 1px #B9C1C3 solid;padding-left: 5px;width: 75px;padding-top: 4px}
+.g-bottom.g-bottom-bg>div .share img{width: 30px;}
+
+/*输入框标签*/
+.g-input{-webkit-appearance:none;-moz-appearance:none;appearance:none;border: 1px #c1c1c1 solid !important;display: block;width: 100%;padding: 6px 12px;font-size: 14px;line-height: 1.428571429;color: #555;vertical-align: middle;background-image: none;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;height: 40px !important;background-color: white;box-shadow: none !important}
+.g-input:focus{border: 2px #4cc2ff solid !important;}
+.g-input-border{border: 1px #c1c1c1 solid !important;-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+.g-input-margin{margin: 0px 0px 10px 0px}
+.g-input-disabled{background: #E5E5E5}
+
+.g-icon-input{padding-left: 35px !important;}
+.g-search{position: relative;}
+.g-icon-input-search{background:#fff url(img/icon_ss.png) no-repeat 99% 2px;background-size: 39px;padding-right: 45px;}
+.g-btn-search{position: absolute;right: 0px;top: 0px;width: 45px;height: 100%;background:none;border:0px;}
+.g-icon-input-name{background: url(img/hd_icon_2.png) no-repeat -25px 9px;background-size: 60px;padding-left: 35px;}
+.g-icon-input-phone{background: url(img/hd_icon_2.png) no-repeat -25px -23px;background-size: 60px;padding-left: 35px;}
+.g-icon-input-home{background: url(img/hd_icon_2.png) no-repeat -25px -62px;background-size: 60px;padding-left: 35px;}
+.g-icon-input-card{background: url(img/hd_icon_2.png) no-repeat -25px -101px;background-size: 60px;padding-left: 35px;}
+.g-icon-input-title{background: url(img/icon_zz.png) no-repeat 7px 4px;padding-left: 35px;background-size: 60px;background-color: white
+}
+.g-icon-input-content{background: url(img/icon_zz.png) no-repeat 7px -75px;padding-left: 35px;background-size: 60px;background-color: white;height: 80px !important;
+}
+
+/*图标*/
+.g-glyphicon{display: inline-block;width: 15px;height: 15px;vertical-align: middle;margin-right: 5px;background: url('img/icons.png');background-size: 235px}
+.g-glyphicon-time{background-position: 0px 0px}
+.g-glyphicon-user{background-position: -22px 0px;}
+.g-glyphicon-paper{background-position: -39px 0px;}
+.g-glyphicon-pencil{background-position: -82px 0px;}
+.g-glyphicon-more{background-position: -60px 0px;}
+.g-glyphicon-arrow{background-position: -102px 0px;}
+.g-glyphicon-ticket{background-position: -122px 0px;}
+.g-glyphicon-map{background-position: -141px 0px;}
+.g-glyphicon-near{background-position: -159px 0px;}
+.g-glyphicon-export{background-position: -174px 0px;}
+.g-glyphicon-groupsend{background-position: -191px 0px;}
+.g-glyphicon-remove{background-position: -209px 0px;}
+
+/*数量调整组件*/
+/*small版本*/
+.g-numeditor-inc,.g-numeditor-text,.g-numeditor-dec{text-align: center;width: 31px;height: 23px;border: 1px solid #DDDDDD;font-size: 19px;line-height: 20px;}
+.g-numeditor-inc{margin-left: -5px;}
+.g-numeditor-text{background: white;margin-left: -5px;width: 75px}
+.g-numeditor-dec{margin-left: -5px;}
+
+/*big版本*/
+.g-numeditor-box{}
+.g-b-numeditor-inc,.g-b-numeditor-text,.g-b-numeditor-dec{width: 60px;height: 38px;background: white;border: 1px solid #DDDDDD;font-size: 27px;line-height: 20px;
+}.g-b-numeditor-dec{border-radius:0px;padding-left:18px;width:50px;}
+.g-b-numeditor-inc{margin-left: -6px;border-radius:0px;padding-left:14px;width:50px;}
+.g-b-numeditor-text{width: 50px;margin-left: -6px;font-size: 22px;color: #bebebe;text-align: center;border-radius:0px;-webkit-appearance: none;}
+
+/*用div模拟table*/
+.g-cell{margin-top:-1px;margin-left: -1px}
+
+/*遮罩*/
+.g-mask{position: fixed;left: 0%;top:0%;width: 100%;height: 100%;background:black;opacity: 0.8;display: none;z-index:999;cursor: pointer;}
+
+
+/*table标准*/
+.g-table{background: white}
+.g-table th{width: 35%;padding:10px;font-weight: normal;text-align: left;border-bottom: 1px #c1c1c1 solid}
+.g-table td{line-height: 20px;border-bottom: 1px #c1c1c1 solid;padding:10px;}
+
+.g-list{background: white;}
+.g-list .pull-right{color: black}
+.g-list .header{color: #999999;padding:10px 10px 0px 20px}
+.g-list .inner{padding: 15px 20px 14px 0px;border-bottom: 1px #e4e4e4 solid}
+.g-list li{padding-left:20px;color: #999999}
+.g-list.g-list-select .item{cursor: pointer;}
+.g-list.g-list-select .item:hover{background: #f7f7f7}
+.g-list li.g-list-active{background: #f7f7f7}
+.g-list li:last-child .inner{border-bottom: 0px;}
+.g-list img.arrow{width: 15px;margin-top: 0px;}
+.g-list img.logo{width: 30px;vertical-align: middle;margin-right: 5px;height: 30px}
+
+/*tab*/
+.g-tab{display: -webkit-box;}
+.g-tab .active{background:#009FC7;color: white}
+.g-tab .active a{color: white !important}
+.g-tab  dd{text-align: center;padding: 10px 0px 10px 0px;-webkit-box-flex:1;background: #efefef;cursor: pointer;}
+.g-tab dd:first-child{border-top-left-radius: 3px;border-bottom-left-radius: 3px}
+.g-tab dd:last-child{border-top-right-radius: 3px;border-bottom-right-radius: 3px}
+
+
+/*窗口*/
+.g-dlg{position: fixed;top: 20%;left: 0%;width: 100%;z-index:999;}
+.g-dlg.g-dlg-box{padding:0px 30px 0px 30px}
+.g-dlg>.row{margin: 0px auto;max-width: 780px;}
+.g-dlg .g-dlg-inner{margin: 0px auto;max-width: 780px;border-radius: 5px;position: relative;}
+.g-dlg .g-dlg-header{font-weight: bold;font-size: 17px;padding-bottom: 5px;max-width: 780px; margin: 0px auto}
+.g-dlg .g-dlg-box{border: 1px #c1c1c1 solid;background: white;padding: 10px;max-width: 780px; margin: 0px auto}
+.g-dlg .g-dlg-footer{max-width: 780px; margin: 0px auto}
+.g-dlg .g-dlg-close{cursor:pointer;width: 30px;height: 30px;background: url(img/win_close.png);background-size: 100%;position: absolute;left: -15px;top: -15px;display: inline-block;}
+
+
+/*分享弹出窗口*/
+.g-share-dlg{z-index: 999;padding:0px;bottom: -100%}
+.g-share-dlg .g-bottom-inner{background: white}
+
+.g-share-dlg .g-share-cancel{width: 65px;}
+
+.g-share-mask-tip{width: 100%;position: fixed;top: 0px;left: 0px;z-index: 9999;background: url('img/share_mask.png') no-repeat;background-size: 100%;height: 230px;text-align: center;display: none}
+.g-share-mask-tip .g-share-know{width: 100px;margin-top: 45%}
+.g-share-mask-tip img{width: 100%}
+.g-share-dlg>.g-bottom-inner>a{display: inline-block;width: 24%;padding-top: 5px;padding-bottom: 5px;text-align: center;cursor: pointer;vertical-align:middle;}
+.g-share-dlg>.g-bottom-inner>a>span{ height: 65px !important;display: inline-block !important;}
+.g-share-dlg>.g-bottom-inner>a img{width: 45px;}
+.g-share-dlg .border-right{border-right: 1px #e6e6e6 solid}
+.g-share-dlg img.g-share-cancel{width: 60px;}
+.jiathis_style .jtico{background:none !important;height: 65px !important;}
+
+/*头像*/
+img.g-avatar{width: 50px; height:50px;border:1px white solid;border-radius:25px;}
+img.g-img-full{width: 100%}
+
+/*基于froala的上传图片样式*/
+#froalaImgUpload{position: relative;display: inline-block;}
+.fr-bttn-improve{cursor: pointer;}
+
+
+/*要求内部的图片百分之百*/
+.g-img-in-box-full img{width: 100%}
+
+/*活动，票等页面的通用开头样式*/
+.g-page-title{padding: 5px;}
+.g-page-title .g-page-box{}
+.g-page-title .g-page-user{text-align: center;height: 67px;padding-top: 6px;
+}
+.g-page-title .g-page-user img{width: 50px;height: 50px;border:1px white solid;border-radius: 25px;}
+.g-page-title .g-page-user-name{text-align:center;text-overflow:ellipsis;white-space:nowrap;overflow: hidden;-o-text-overflow:ellipsis;padding-right: 0px;font-size: 12px;padding-left: 0px;}
+.g-page-title .g-title-text span{display: table-cell;vertical-align: middle;line-height: 25px; height: 67px;font-weight: bold;word-break:break-all;}
+.g-page-title .g-title-add span{display: inline-block;margin-right: 5px;}
+
+
+/*微信上传载入动画*/
+.g-wx-upload-loading{text-align: center;position: absolute;width: 100%;left: 0px;}
+.g-wx-center{display: inline-block;background: rgba(0,0,0,0.4);width: 120px;border-radius: 5px;padding-top: 10px;padding-bottom: 105px}
+
+
+
+
+
+
+
+/*手机端样式规范*/
+/*输入框边框颜色*/
+.border_input{border: 1px #c5c5c5 solid;}
+.g-input-border{border: 1px #c5c5c5 solid;border-radius: 0px;}
+.g-input-border:focus{border: 2px #4cc2ff solid !important;}
+/*输入框选中边框颜色*/
+.form_focus{border: 2px #4cc2ff solid !important;-webkit-box-shadow:none;}
+/*输入框的字体*/
+.form-control{font-size: 15px;}
+/*输入框的圆角设置*/
+.form_label{font-size:17px;}
+.border_input,.border_input.mangin_bot{border-radius: 0px;}
+/*自定义富文本编辑器*/
+.text_more div{border-radius: 0px;}
+.text_more{border: 1px #c5c5c5 solid;}
+.text_more,.text_moer_textarea{border-radius: 0px;}
+.text_more_border{border:2px #4cc2ff solid;box-shadow: none}
+/*多选框*/
+.zk_user div label input{width: 17px;height: 17px !important;}
+
+
+
+
+
+
+
+
+/*我的电子票 *********************************************************************************************/
+.myTicketPage .tip{padding-bottom: 0px;}
+
+/*票*/
+.myTicketPage .ticket{margin-top: 10px;}
+.myTicketPage .ticket-top{background: #009FC7;border-bottom-left-radius:0px;border-bottom-right-radius: 0px;border-bottom:none;margin: 0px;padding: 20px 5px 20px 5px;position: relative;}
+.myTicketPage .ticket-top .wave{width: 100%;height: 15px;background: url(img/img-2.png);position: absolute;bottom: -1px;left: 0px}
+.myTicketPage .ticket-top .ticket-user{padding: 0px;text-align: center;padding-top:7px;}
+.myTicketPage .ticket-top .ticket-user img{width: 50px; height:50px;border:1px white solid;border-radius:25px;}
+.myTicketPage .ticket-top span{display: table-cell;vertical-align: middle;line-height: 25px; height: 67px;color: white;font-weight: bold;}
+.myTicketPage .ticket-top .ticket-user-bottom{padding: 0px;text-align: center;}
+
+.myTicketPage .ticket-info{margin: 0px;border-top-left-radius: 0px; border-top-right-radius: 0px;color: 15px;padding: 15px 0px 15px 0px;}
+.myTicketPage .ticket-info .time{text-align: right;}
+
+
+
+.myTicketPage footer{text-align: center;margin-top: 10px;}
+
+.myTicketV2Page .tip{padding-top: 15px;}
+.myTicketV2Page .ticketTypeItem{border-bottom: 2px #EFEFEF dashed;padding-bottom:20px !important;padding-top: 0px !important}
+.myTicketV2Page .ticketTypeItem .tip{padding-bottom:0px !important;}
+.myTicketV2Page .wArrow{width: 23px;position: absolute;right: 0px;top: 22px;}
+
+/*电子票详情 *********************************************************************************************/
+.ticketDetailPage {padding: 0px;}
+
+/*数量调整*/
+.ticketDetailPage .ticketNum{line-height: 32px;margin-bottom: 5px}
+.ticketDetailPage .ticketNum .jia{margin-left: -6px}
+.ticketDetailPage .ticketNum .numText{width: 32px;margin-left: -6px;font-size: 17px;color: #bebebe;text-align: center;height: 23px;}
+
+
+/*票*/
+.ticketDetailPage .ticket-top{background: #009FC7;padding: 20px 10px 20px 10px;position: relative;}
+.ticketDetailPage .ticket-top .ticket-user img{width: 50px;height: 50px;border:1px white solid;border-radius: 25px;}
+.ticketDetailPage .ticket-top .ticket-title span{display: table-cell;vertical-align: middle;line-height: 25px; height: 67px;color: white;font-weight: bold;}
+
+.ticketDetailPage .ticket-info{line-height: 25px;position: relative;padding-bottom: 20px !important}
+.ticketDetailPage .ticket-info .wave{background: url(img/img-11.png);position: absolute;bottom: 0%;left: 0%;width: 100%;height: 12px}
+.ticketDetailPage .ticket-info .payNow{text-align: right}
+
+
+/*二维码*/
+.ticketDetailPage .code{text-align: center;}
+.ticketDetailPage .code img{width: 145px}
+.ticketDetailPage .code .num{color: #c1c1c1}
+
+/*票列表*/
+.ticketDetailPage .tickets{padding-bottom: 0px !important;}
+.ticketDetailPage .tickets>div{padding-top:8px;height: 50px;}
+.ticketDetailPage .tickets .t1{line-height:18px;}
+.ticketDetailPage .tickets .t2{line-height: 28px;}
+
+
+/*地址*/
+.ticketDetailPage .address>div{background: white;border:1px #c1c1c1 solid;padding:0px;}
+.ticketDetailPage .address>div>div{padding: 5px 0px 5px 0px;}
+.ticketDetailPage .address .name{border-top: 0px;border-left: 0px;border-right: 0px;}
+.ticketDetailPage .address .detail{text-align:right}
+.ticketDetailPage .address img{width:15px;}
+
+
+/*footer*/
+.ticketDetailPage footer{text-align: right;background: #F0F0F0 !important;border-top: 1px #c1c1c1 solid;}
+
+/*弹出层*/
+.ticketDetailPage .dlg{bottom: -100%;position: fixed;left: 0%;width: 104%;z-index:999}
+.ticketDetailPage .dlg .g-box{padding:10px 10px 10px 10px;}
+
+
+
+.ticketDetailPage.ticketDetailV2Page .tickets>div{height: 50px;line-height: 50px;padding-top: 0px !important;}
+
+
+
+
+/*查找电子票 *********************************************************************************************/
+.searchTicketPage{padding:0px;}
+.searchTicketPage .validate{background: #C2C2C2;height:40px;line-height: 13px;display: none}
+.searchTicketPage .getValidate{height:40px;line-height: 20px;}
+.searchTicketPage .tip{font-weight: bold;border: 0px 0px 1px 0px;}
+.searchTicketPage .sure{position: fixed;bottom: 0px;left: 0%;width: 100%;padding: 5px}
+
+
+
+/*未找到电子票 *********************************************************************************************/
+.notFoundPage .tip{text-align: center;font-weight: bold;padding-top: 125px}
+.notFoundPage .revalidate{bottom: 10% !important;}
+
+
+
+/*验证手机 *********************************************************************************************/
+.validatePhonePage .button{cursor: pointer;background: #009FC7;color: white;border-radius: 5px;display: block;padding: 10px;text-align: center;font-size: 17px;}
+.validatePhonePage .validate{background: #C2C2C2;font-size: 13px;height:40px;line-height: 13px;display: none}
+.validatePhonePage .getValidate{font-size: 13px;height:40px;line-height: 20px;}
+
+/*tip*/
+.validatePhonePage .tip{background:#54C7FE;color:white}
+.validatePhonePage .tip img{vertical-align:-18px}
+
+/*线下支付 *********************************************************************************************/
+/*顶部*/
+.offlinePay .tip{font-weight: bold;border:0px 0px 1px 0px;}
+
+/*查找电子票的表单*/
+.offlinePay .updateCA{display: block;width: 100%;text-align: center;background: url(img/img-7.png) 33% no-repeat;background-size: 8%;height: 40px;line-height: 40px;}
+.offlinePay .note p{margin-bottom: 45px !important}
+
+
+/*确定按钮*/
+.offlinePay .submit{position: fixed;bottom: -3px;left: 0%;width: 100%;}
+
+
+/*再次支付************************************************************************************************/
+.rePayPage .button{cursor: pointer;background: #009FC7;color: white;border-radius: 5px;display: block;padding: 10px;text-align: center;font-size: 17px;}
+
+/*顶部*/
+.rePayPage .tip{font-weight: bold;margin:10px 0px 10px 0px;}
+.rePayPage .info{word-break:break-all;}
+.rePayPage .info .row div{padding-right: 0px;}
+
+
+
+/*选择票种*************************************************************************************************/
+/*头部*/
+.selectTicketPage .ticket-top{padding:10px;position: relative;}
+.selectTicketPage .ticket-top .ticket-user{text-align: center;height: 67px;padding-top: 6px;
+}
+.selectTicketPage .ticket-top .ticket-user img{width: 50px;height: 50px;border:1px white solid;border-radius: 25px;}
+.selectTicketPage .ticket-top .ticket-user-bottom{text-overflow:ellipsis;white-space:nowrap;overflow: hidden;-o-text-overflow:ellipsis;padding-right: 0px;color: #b2b2b2;font-size: 12px;padding-left: 0px;}
+.selectTicketPage .ticket-top .ticket-title span{display: table-cell;vertical-align: middle;line-height: 25px; height: 67px;font-weight: bold;}
+
+/*票*/
+.selectTicketPage .ticketsWrapper{padding: 10px;margin-bottom: 45px}
+.selectTicketPage .ticketItem{min-height: 110px;margin-bottom: 15px;}
+.selectTicketPage .ticketItem h3{font-weight: bold;margin: 10px 20px 5px 0px;max-height: 40px;min-height: 40px;overflow: hidden;}
+.selectTicketPage .ticketItem .infoTitle{padding: 0px 15px 10px 15px;  height: 80%;position: relative;background: #F0F0F0;}
+.selectTicketPage .ticketItem .infoDetail{position: relative;padding-top: 27px;}
+.selectTicketPage .ticketItem .content{border-top: 1px #DDDDDD solid; padding-top: 10px;padding-bottom: 10px;line-height: 20px;}
+.selectTicketPage .ticketItem .select{width: 40px; height:40px;background: url('img/img-10.png') no-repeat;position: absolute;top: 0%;right: 0%;background-size: 100%;display: none}
+
+/*数量调整*/
+.selectTicketPage .ticketItem .ticketNum{padding-top: 10px;padding-bottom: 10px;line-height: 30px;}
+
+/*金额*/
+.selectTicketPage .ticketItem .ticketMoney{padding-top: 10px;padding-bottom: 5px;}
+.selectTicketPage .ticketItem .ticketMoney div{border-bottom:1px #dddddd dotted;width: 100%;padding-bottom: 10px}
+.selectTicketPage .ticketItem .toggle{position: absolute;line-height:18.5px;right: 0%;top: 0px;color: #b2b2b2;padding-right: 26px;display:block;height: 18px}
+.selectTicketPage .ticketItem .shide{background: url('img/img-9.png') 90% no-repeat;background-size:36%;cursor: pointer;}
+.selectTicketPage .ticketItem .sexpand{background: url('img/img-8.png') 90% no-repeat;background-size:36%;cursor: pointer;}
+.selectTicketPage .ticketItem .wave{width: 100%;background: url('img/img-11.png');background-size:13px;height: 9px;position: absolute;bottom: 0%;left: 0%;}
+
+/*选择票种-3188适应单会管理的多票种购票*************************************************************************************************/
+.selectTicketIPage .deadTime{position: absolute;left: 0px;top: 0px;font-weight: bold;}
+.selectTicketIPage .g-btn-cancel{padding: 10px;}
+
+.selectTicketIPage .saleTip{color: white;background: #ED7439;text-align: center;padding: 5px;display: none}
+.selectTicketIPage .saleInputBox{display: none}
+.selectTicketIPage .ori{text-decoration: line-through;margin-right: 10px;}
+.selectTicketIPage .saleTotal{color: green}
+
+/*支付方式************************************************************************************************/
+
+/*顶部*/
+.PayWayPage .tip{font-weight: bold;padding-left: 0px !important;padding-right: 0px !important;}
+.PayWayPage .tip .change{color: #009fc7;}	
+.PayWayPage .info{word-break:break-all;}
+.PayWayPage .info .logo img{width: 44px;}
+.PayWayPage .info th{border-right: 0px;text-align: left;}
+.PayWayPage .info td{border-left: 0px;}
+
+.PayWayPage .payWay a{display: block}
+.PayWayPage .payWay .d{height: 66px;line-height: 22px;}
+
+/*意见反馈*/
+/*顶部*/
+.advancePage .tip{font-weight: bold;text-align: right}
+
+/*logo*/
+.advancePage .logo{width: 70px;border-radius: 35px;margin-top:-30px}
+
+/*反馈列表*/
+.advancePage .formBody{margin-bottom: 40px;}
+.advancePage .item{cursor:pointer;padding:10px 10px 10px 50px;background: url('img/img-15.png') 10px 3px no-repeat;background-size: 30px}
+.advancePage .current{background: url('img/img-16.png') 10px 3px no-repeat;background-size: 30px}
+
+/*活动报名重复*/
+.re-phone-dlg{display: none}
+.re-phone-dlg .d{border: 0px; border-top: 1px #dadada solid;}
+.re-phone-dlg .note{padding:32px !important}
+
+/*创建打赏页面*/
+.createTipPage .input-remove-box{position: relative;}
+.createTipPage .input-remove-box input.input-with-img{padding-left: 40px;}
+.createTipPage .input-upload{cursor:pointer;display: inline-block;width: 40px;height: 40px;background: url('img/hd_icon.png') no-repeat 8px -283px;top: 0px;right: 0px;position: absolute;background-size: 57px;}
+.createTipPage img.input-remove{position: absolute;top: 10px;right: 5px;width: 20px;cursor: pointer;}
+.createTipPage img.uploaded-img{position: absolute;left: 5px;top: 5px;width: 30px;height: 30px;border-radius: 4px;}
+.createTipPage .pic-add{width: 45px;vertical-align: -16px;}
+.createTipPage .upload-msg{color: gray;display: block;}
+.createTipPage .input-upload-div{width: 40px;height: 40px; position: absolute;right:25px; top: 0px;}
+
+/*打赏展示*/
+.tipListPage .ticket-top{padding:10px;position: relative;}
+.tipListPage .ticket-top .ticket-user{text-align: center;height: 67px;padding-top: 6px;
+}
+.tipListPage .ticket-top .ticket-user img{width: 50px;height: 50px;border:1px white solid;border-radius: 25px;}
+.tipListPage .ticket-top .ticket-user-bottom{text-overflow:ellipsis;white-space:nowrap;overflow: hidden;-o-text-overflow:ellipsis;padding-right: 0px;font-size: 12px;padding-left: 0px;}
+.tipListPage .ticket-top .ticket-title span{display: table-cell;vertical-align: middle;line-height: 25px; height: 67px;font-weight: bold;}
+
+.tipListPage .admin_op_menu{padding: 0px;}
+.tipListPage .admin_op_menu li{width: 32%;}
+.tipListPage .admin_op_menu li img{width: 30px;margin-bottom: 8px}
+
+.tipListPage .tip-content{border:0px;border-bottom: 1px #c1c1c1  solid;margin: -10px;}
+.tipListPage .tip-content img{width: 100%;}
+
+.tipListPage .top .g-box{padding: 15px !important}
+.tipListPage .top img{width: 45px;height: 45px;}
+.tipListPage .border-left{border-left: 1px #c1c1c1  solid}
+.tipListPage .top table{border: 1px #c1c1c1  solid}
+.tipListPage .top td{border: 0px;border-bottom: 1px #c1c1c1  solid}
+
+.tipListPage .record{padding:0px;}
+.tipListPage .record >.row{border-bottom: 1px #c1c1c1 solid !important;padding: 10px 0px 10px 0px}
+.tipListPage .avatar{width: 70px;}
+.tipListPage .code{line-height: 20px}
+.tipListPage .code img{width: 50%;max-width: 400px;}
+
+.tipListPage .give-money{cursor: pointer;}
+
+.tipListPage .border-fixed{border-style: solid none none none }
+.tipListPage .hongBaoDlg{display:block;top:30px;display: relative}
+.tipListPage .hongBaoDlg .bg{max-width: 640px;}
+.tipListPage .hongBaoDlg .box{position: absolute;left: 0px;top: 14%;padding: 6%;width: 100%;}
+.tipListPage .hongbaoCancel{color: white;background: #b19d68;border:0px;}
+.tipListPage .give{background: #eee36f;color: black;border:0px;}
+
+.tipListPage .linkTo{margin-top: 10px;}
+.tipListPage .linkTo a{display: inline-block;width: 49%;text-align: center;}
+.tipListPage .linkTo .r{border-right: 1px #428BCA solid}
+
+.tipListPage .content{word-break:break-all;}
+
+
+/*成功打赏*/
+.tipGiveSuccess{position: relative;}
+.tipGiveSuccess .bg{position: fixed;bottom: 0px;left: 0px;z-index: -1}
+.tipGiveSuccess .g-return{background: #ff4444;border:0px;}
+.tipGiveSuccess .share-tip{top: 10px}
+
+/*排行页面*/
+.tipRankingPage .tip-owner .g-box{padding-top: 20px !important;padding-bottom: 20px !important;}
+
+.tipRankingPage .top-1,.tipRankingPage .top-2,.tipRankingPage .top-3{width: 30px;height: 30px; border-radius: 50%;display: inline-block;line-height: 30px}
+.tipRankingPage .top-1{background: #f8c016}
+.tipRankingPage .top-2{background: #dbdbdb}
+.tipRankingPage .top-3{background: #ca9123}
+.tipRankingPage .top-more{background: white;color: #e4e4e4}
+.tipRankingPage .ranking-list td{border-style: none none solid none}
+.tipRankingPage .ranking-list .user-td{width: 25%;}
+.ranking-list .g-box-border{border:1px #f0edf0 solid;}
+
+/*首页*/
+.indexPage a{color: black}
+.indexPage .index-tip{margin-top: 10%}
+.indexPage .publish dl{width: 100%;margin:1% auto;}
+.indexPage .publish dd{display: inline-block;width: 32%;text-align: center;margin-bottom:3%;position: relative;}
+.indexPage .g-bottom dd{position: relative;}
+.indexPage .g-bottom .arrow{position:absolute;top:-20px;text-align:center;width: 100%;display: none;border:0px;}
+.indexPage .g-bottom .active .arrow{display: block;}
+.indexPage .g-bottom .arrow img{width: 40px;}
+.indexPage .publish img {width: 70%;max-width: 80px}
+/*.indexPage .contact{position: absolute;width: 100%;bottom: 72px;left: 0px;}*/
+.indexPage .contact{margin-bottom:40px;line-height:80px;min-height:70px;text-align:center;}
+.indexPage .contact a{color:#68ABDB }
+/*首页新春版*/
+.indexPage.indexNewYearPage{background: #fff7e3}
+.indexPage.indexNewYearPage .g-bottom .arrow{top: -19px}
+.indexPage.indexNewYearPage .nav dl{border-top: 1px #74310B solid;background: #feca39}
+
+
+.indexPage .nav{}
+.indexPage .nav dl{width: 100%;margin:0 auto;padding: 5px 0px 5px 0px;max-width: 780px; margin: 0px auto;background: #f7f7f7;border-top:1px #bababa solid;}
+.indexPage .nav dd{display: inline-block;width: 23.7%;text-align: center;}
+.indexPage .nav img {width: 45%;max-width: 50px;margin-left: 5px;}
+.indexPage .select{display: none}
+.indexPage .notSelect{margin-left: 5px;}
+.indexPage .active .notSelect{display: none}
+.indexPage .active .select{display: inline-block;}
+
+/*帮助页面*/
+.helpPage .bottom-none{border-bottom: 0px !important;}
+.helpPage .question-title img{width: 25px;vertical-align:-6px;margin-right:5px;}
+.helpPage .question-title{background: #f8f8f8;padding:10px;}
+
+.helpPage .question dd{padding:10px;}
+.helpPage .question dd{border-bottom: 1px #c8c8c8 solid}
+
+.helpPage .category{padding-bottom: 10px;}
+.helpPage .category dd{display: inline-block;text-align: center;width: 23.9%}
+.helpPage .category dd img{width: 70%;}
+
+/*填写购票人信息*/
+.writeBuyerPage .g-dlg{top:13%;}
+
+.writeBuyerPage .header{padding:10px 0px 10px 0px;border-style: none none solid none;}
+.writeBuyerPage .ticketHeader{border-style: none none dashed none;padding-bottom: 5px;padding-left:0px !important;padding-right:0px !important;}
+.writeBuyerPage .joinerInfo td{background: #E6E6E6;border-bottom: 5px white solid}
+.writeBuyerPage .joinerInfo .t1{width: 60%;}
+.writeBuyerPage .joinerInfo .t2 a{width: 20%;color: green}
+.writeBuyerPage .joinerInfo .t3 a{width: 20%;color: red}
+.writeBuyerPage .joinerInfo .t4{background:white !important}
+.writeBuyerPage .joinerInfo .t4 span{background: #E6E6E6; padding: 5px;}
+
+.writeBuyerPage .orderList td{padding: 3px;text-align: left;}
+.writeBuyerPage .orderList th {text-align:left;font-weight: normal;}
+.writeBuyerPage .editUserDlg td{padding: 5px 0px 5px 0px;}
+
+.writeBuyerPage .saleTip{color: white;background: #ED7439;text-align: center;padding: 5px;}
+
+.writeBuyerPage .editUserDlg .g-dlg-body{padding:10px;overflow: auto;max-height: 230px}
+
+/*填写购票人信息V2*/
+.writeBuyerV2Page .addJoinerBtn{display: block;text-align: center;padding: 7px;border: 1px #009FC7 dashed;border-radius: 5px;}
+.writeBuyerV2Page .joinerInfo li{margin-bottom: 5px;}
+.writeBuyerV2Page  a.editUser{color: green}
+.writeBuyerV2Page  a.deleteUser{width: 20%;color: red;margin-left: 10px;}
+.writeBuyerV2Page .joinerInfo .g-btn{display: inline-block;width: 75px;line-height: 5px;}
+.writeBuyerV2Page .infoEditBox{border:1px #dddddd solid;}
+.writeBuyerV2Page li .infoEditBox{border-top: 1px white solid;padding: 10px;margin-top: -5px;}
+.writeBuyerV2Page .tipDlg p{padding: 20px;}
+.writeBuyerV2Page .title{background: #E6E6E6;padding: 10px;margin-bottom: 5px;}
+.writeBuyerV2Page img.iconAddJoiner{width: 20px;vertical-align: -5px;margin-right: 5px;}
+.writeBuyerV2Page .icon{width: 20px;height: 20px;margin-left: 5px;}
+
+
+/*微信签到页面*/
+.wxQianDaoPage .title{padding: 10px; background-color: #FCFCFC;font-weight: bold;}
+.wxQianDaoPage .code img{width: 40%}
+
+.wxQianDaoPage  .text1 img{display: inline-block;max-width: 24px; width: 8%}
+.wxQianDaoPage  .text1 span{display: inline-block;width: 90%}
+
+.wxQianDaoPage  .places dd{display: inline-block;width: 23.7%;text-align: center;}
+.wxQianDaoPage  .places dd img{width: 70%;max-width: 85px;}
+
+.wxQianDaoPage  .describe dt{margin-bottom: 5px;}
+
+.wxQianDaoPage .users td{padding:10px 0px 0px 10px}
+.wxQianDaoPage .userItem{padding-bottom: 10px;}
+
+/*购买成功*/
+.buySuccessPage .topLabel{color: #017AFF;font-weight: bold}
+.buySuccessPage .topLabel img{width: 30px;vertical-align: middle;margin-right: 5px;}
+.buySuccessPage .tip{font-weight: bold;padding-left: 0px !important;padding-right: 0px !important}
+.buySuccessPage .tip .change{color: #009fc7;}	
+.buySuccessPage .info{word-break:break-all;}
+.buySuccessPage .info .logo img{width: 35px;vertical-align: middle;margin-right: 5px;}
+.buySuccessPage .info th{border-right: 0px;text-align: left;}
+.buySuccessPage .info td,.buySuccessPage .info th{border-bottom: 1px #DADADA solid}
+.buySuccessPage .payWay td,.buySuccessPage .payWay th{border-top:1px #DADADA solid;}
+
+.buySuccessPage .payWay a{display: block}
+.buySuccessPage .payWay .d{height: 66px;line-height: 22px;}
+
+.buySuccessPage .payWay th{width: 90%;}
+.buySuccessPage .payWay td{width: 10%}
+
+.buySuccessPage img.arrow{width: 15px}
+
+/*签到成功*/
+.qdSuccussPage .topLabel{font-weight: bold}
+.qdSuccussPage .topLabel img{width: 30px;vertical-align: middle;margin-right: 5px;}
+
+.qdSuccussPage .show a{display: block}
+.qdSuccussPage .show th{width: 90%;}
+.qdSuccussPage .show td{width: 10%}
+.qdSuccussPage img.arrow{width: 15px}
+.qdSuccussPage .icon{width: 20px;vertical-align: middle;margin-right:10px;}
+
+/*招聘详情页*/
+.recruitDetailPage .admin_op_menu{padding: 0px;}
+.recruitDetailPage .admin_op_menu li{width: 49%;}
+.recruitDetailPage .admin_op_menu li img{width:35px;}
+.recruitDetailPage .content img{width: 100%}
+.recruitDetailPage img.mobile{width: 20px;}
+
+.recruitDetailPage .code img{width: 50%;max-width: 400px;}
+
+/*活动管理，我发布的*/
+.myPublishEventPage .search{border-style: solid none solid none}
+.myPublishEventPage .entry{background:#F8F8F8}
+
+.myPublishEventPage .entry dd{display: inline-block;text-align: center;width: 49%;padding: 10px 0px 10px 0px;}
+
+.myPublishEventPage .event{padding-bottom: 0px;margin-bottom: 20px;}
+.myPublishEventPage .event>.g-box{padding: 20px !important}
+.myPublishEventPage .event h4{margin-bottom: 5px;word-break:break-all;line-height: 25px}
+.myPublishEventPage .itemNav{display: -webkit-box}
+.myPublishEventPage .itemNav dd{text-align: center;padding:14px 0px 14px 0px;-webkit-box-flex:1;}
+.myPublishEventPage .itemNav a{display: inline-block;width: 100%;border-right: 1px #c8c8c8 solid}
+.myPublishEventPage .itemNav dd:last-child a{border-right: 0px;}
+
+.myPublishEventPage .avatar{width: auto;float: left;}
+.myPublishEventPage .content{margin-left: 10px;}
+.myPublishEventPage .content .g-color-note{font-size: 12px;}
+
+/*活动管理，我参与的*/
+.myJoinEventPage .search{border-style: solid none solid none}
+.myJoinEventPage .entry{background:#F8F8F8}
+.myJoinEventPage .entry .notNowFont a{color: black}
+.myJoinEventPage .entry .nowFont a{color: white}
+.myJoinEventPage .entry .now{background:#009FC7;}
+.myJoinEventPage .entry .nowLeft{color: white;border-top-left-radius: 3px;border-bottom-left-radius: 3px}
+.myJoinEventPage .entry .notNowLeft{color: black;border-top-left-radius: 3px;border-bottom-left-radius: 3px}
+.myJoinEventPage .entry .nowRight{color: white;border-top-right-radius: 3px;border-bottom-right-radius: 3px;}
+.myJoinEventPage .entry .notNowRight{color: black;border-top-right-radius: 3px;border-bottom-right-radius: 3px;}
+.myJoinEventPage .entry dd{display: inline-block;text-align: center;width: 49%;padding: 10px 0px 10px 0px;}
+
+.myJoinEventPage .box{padding:20px 0px 20px 0px !important}
+.myJoinEventPage .event{padding-bottom: 0px;}
+.myJoinEventPage .itemNav dd{display: inline-block;width: 32.2%;text-align: center;padding:14px 0px 14px 0px;}
+.myJoinEventPage .itemNav a{display: inline-block;width: 100%;border-right: 1px #c8c8c8 solid}
+.myJoinEventPage .content{padding-top: 4px;}
+.myJoinEventPage .content h4{margin-bottom: 6px}
+
+/*个人中心*/
+.myZonePage header{position: relative;max-height: 200px;overflow: hidden;}
+.myZonePage header .avatar{position: absolute;left: 5px;bottom: 10px;border:2px #f3e6e6 solid;z-index: 1}
+.myZonePage header .name{position: absolute;left: 20px;bottom: 10px;border-radius: 15px;background: #f3e6e6;padding: 2px 12px 2px 35px;z-index: 0}
+.myZonePage header img.bg{width: 100%;}
+
+.myZonePage .logo{min-height: 66px;width: 55px;display: inline-block;margin-top: -2px}
+.myZonePage .logo img{width: 50px;}
+.myZonePage .content{padding-top: 7px;min-height: 52px;}
+.myZonePage .content h4{margin-bottom: 5px;}
+.myZonePage .item .arrow{padding-top: 20px;min-height: 66px;margin-right: 10px}
+.myZonePage .item .arrow img{width: 15px;}
+
+.myZonePage .opration {}
+.myZonePage .opration dd{display: inline-block;width: 32%;padding:10px 0px 10px 0px;text-align: center;line-height: 15px;}
+.myZonePage .opration dd img{width: 45%;max-width: 60px;margin-bottom: 5px;}
+
+/*个人中心-活动*/
+.myEventZonePage .event{padding-bottom: 0px;}
+.myEventZonePage .itemNav dd{display: inline-block;width: 32.2%;text-align: center;padding:14px 0px 14px 0px;}
+.myEventZonePage .itemNav a{display: inline-block;width: 100%;border-right: 1px #c8c8c8 solid}
+
+/*个人中心-时间轴*/
+.timelinePage .search{border-style: solid none solid none}
+
+.timelinePage dl{padding-left: 20px;}
+.timelinePage dd{padding-left: 20px;border-left: 1px #dadada solid;position: relative;padding:10px 0px 0px 31px}
+.timelinePage dd .inner{padding-bottom: 15px;border-bottom:  1px #dadada solid}
+.timelinePage dd h4{padding-bottom: 10px;}
+.timelinePage dd h5{font-weight: bold}
+.timelinePage .pic img{width: 65px;}
+.timelinePage .itemWrapper{border-style:solid none solid none;position: relative;}
+.timelinePage .item>.g-col{min-height: 50px;}
+.timelinePage .item .info{line-height: 50px;font-weight: bold;padding:10px;height: 50px;overflow: hidden;text-overflow:ellipsis;white-space:nowrap;}
+.timelinePage .dot{position: absolute;left: -5px; top: 15px; width: 10px}
+
+.timelinePage .dateTip{display: inline-block;padding-top:2px;background: #5bb4da;width: 45px;height: 45px;border-radius: 50%;text-align: center;color: white;position: absolute;left: 10px;top: 7px;z-index: 9}
+
+
+/*活动管理-报名用户全部*/
+.myAllJoinerPage .search{border-style: solid none solid none}
+.myAllJoinerPage .navMain{background: #F8F8F8}
+.myAllJoinerPage .navMain a{color: black}
+/*.myAllJoinerPage .navMain .now{background:#009FC7;}
+.myAllJoinerPage .navMain .now a{color: white}
+.myAllJoinerPage .navMain .nowLeft{border-top-left-radius: 3px;border-bottom-left-radius: 3px;}
+.myAllJoinerPage .navMain .nowRight{border-top-right-radius: 3px;border-bottom-right-radius: 3px;}*/
+.myAllJoinerPage .navMain dd{text-align: center;padding: 10px 0px 10px 0px;}
+
+
+.myAllJoinerPage .navCategory{padding:10px 0px 0px 0px;display: -webkit-box}
+.myAllJoinerPage .navCategory dd{text-align: center;text-align: center;border-right: 1px #dadada solid;-webkit-box-flex:1;}
+.myAllJoinerPage .navCategory dd:last-child{border-right: 0px;}
+.myAllJoinerPage .navCategory a{color: black}
+.myAllJoinerPage .navCategory .active a{color: blue}
+
+.myAllJoinerPage .right{float: right}
+.myAllJoinerPage .list{padding-left: 10px;margin-bottom: 50px;}
+.myAllJoinerPage .list dd{padding: 10px;border-bottom: 1px #dadada solid}
+.myAllJoinerPage .list div{margin:10px 0px 10px 0px;}
+.myAllJoinerPage .list .t1{border-right:1px #dadada solid;padding-right: 10px;}
+.myAllJoinerPage .list .t2{padding-left: 10px;}
+.myAllJoinerPage .list .not{color: #ff6600}
+
+.myAllJoinerPage .list .setPay{background: #ff6600;border-radius: 12px;padding:1px 10px 1px 10px;color: white}
+.myAllJoinerPage .list .setQd{background: #5bb4da;border-radius: 12px;padding:1px 10px 1px 10px;color: white}
+
+.myAllJoinerPage .opBottom dd{width: 49%;text-align: center;display: inline-block; }
+
+/*错误页面*/
+.errorPage .errorTip{margin-top: 15%;text-align: center;}
+.errorPage .errorTip img{width: 100%;max-width: 380px}
+
+.errorPage .entrys{position: absolute;bottom: 5%;width: 100%;left: 0px;}
+.errorPage .entrys li{float: left;width: 50%;text-align: center;}
+.errorPage .entrys li img{width: 100px;margin-top: 50%;}
+
+
+/*标准的支付界面*/
+.StandardPayPage .g-box-margin{margin-top: 15px !important;}
+
+.StandardPayPage .info{word-break:break-all;}
+.StandardPayPage .info img.logo{width: 40px;}
+
+
+.StandardPayPage .payWay .inner{color: black}
+.StandardPayPage .payWay .logo{margin-right: 10px;vertical-align: middle;}
+.StandardPayPage .payWay img.select{width: 30px;}
+
+.StandardPayPage .PayMoney{color: #FF8400;font-size: 25px;padding-top: 15px}
+
+.StandardPayPage .ticketType th span{border-left: 2px #FCDBB7 solid;padding-left: 10px;}
+
+.StandardPayPage .wxPayTipMask{top: 8%}
+.StandardPayPage .payTipInner{padding: 0px 20px 20px 20px}
+.StandardPayPage .wxPayTipMask p{padding: 15px 0px 0px 0px;text-align: center;line-height: 20px}
+.StandardPayPage .wxPayTipMask .code{margin-bottom: 20px;}
+.StandardPayPage .wxPayTipMask .code img{max-width: 400px;}
+.StandardPayPage .wxPayTipMask img{width: 100%;}
+.StandardPayPage .wxPayTipMask .saveCode{background: #1ABF16;border: none;max-width: 400px;margin: 0px auto}
+.StandardPayPage .wxPayTipMask .saveCode:hover{color: white}
+.StandardPayPage .wxPayTipMask .saveCode:visited{color: white}
+
+.StandardPayPage .alipayPayTipMask{top: 0px;cursor: pointer;}
+.StandardPayPage .alipayPayTipMask img{width: 100%}
+
+.StandardPayPage .op{padding: 10px 0px 10px 0px}
+.StandardPayPage .op li{display: inline-block;text-align: center;border-right:1px #EFEFEF solid;width: 32.2%}
+.StandardPayPage .op li img{width: 25px;cursor: pointer;}
+.StandardPayPage .op li img:hover{opacity: 0.6}
+.StandardPayPage .op li:last-child{border-right: 0px;}
+
+/*查看正在申请的订单*/
+.ordersDealingPage th{font-weight: normal;}
+.ordersDealingPage .order header{border-bottom: 1px #c1c1c1 solid;padding-bottom: 10px;margin-bottom: 10px;}
+.ordersDealingPage .orderBody td{padding:5px 0px 5px 0px;}
+
+/*创建包养*/
+.createBYPage .cover{width: 100%;max-height: 150px;margin-bottom:20px;border-radius: 3px;}
+
+/*热包推荐*/
+.byRecommendPage ul{padding: 0px 10px 0px 10px;}
+.byRecommendPage ul li{padding: 10px;border-bottom: 1px #dddddd solid}
+.byRecommendPage ul li h3{padding-bottom: 10px;}
+
+.byRecommendPage .tip{text-align: center;padding: 150px 20px 0px 20px;}
+
+/*微包养个人中心*/
+.byZonePage li{border:1px #dddddd solid;border-radius: 5px;margin-bottom: 15px;}
+.byZonePage li .info{padding: 20px;}
+.byZonePage li h3{margin-bottom: 10px;line-height: 24px;}
+.byZonePage .bottom{padding: 10px;border-top: 1px #dddddd solid}
+
+.byZonePage dd{width: 24%;text-align: center;display: inline-block;padding: 5px 0px 5px 0px;line-height: 20px;}
+.byZonePage img.module{border-radius: 5px;width: 40px;height: 40px;}
+
+/*包养管理*/
+.byPublicPage li{border:1px #dddddd solid;border-radius: 5px;margin-bottom: 15px;}
+.byPublicPage li .info{padding: 10px;}
+.byPublicPage li h3{margin-bottom: 10px;}
+.byPublicPage .bottom{padding: 10px;border-top: 1px #dddddd solid}
+
+.byPublicPage .byList{padding-top: 15px;}
+
+/*包养名单管理*/
+.byAllJoinerPage .navCategory dd{width: 32%}
+.byAllJoinerPage .tip{line-height: 35px;}
+
+.byAllJoinerPage .label{padding: 2px 10px 2px 10px;border-radius: 4px;color: white}
+.byAllJoinerPage .purchased{background: #3477AB}
+.byAllJoinerPage .raised{background: #A1A1A1}
+.byAllJoinerPage .setRaise{background: #009900}
+
+/*报名页面*/
+.signInSucPage  .g-table th,.signInSucPage .g-table td{border-bottom: 0px;}
+.signInSucPage textarea{max-height: 115px !important;min-height: 80px !important;border:0px !important;}
+.signInSucPage  #sendMsgDlg{top: 0px;}
+.signInSucPage #sendMsgDlg header{padding-right: 60px;}
+.signInSucPage #sendMsgDlg .field_txt{height: 30px !important;}
+.signInSucPage #sendMsgDlg .add_btn{padding: 4px;position: absolute;right: 5px;width: 55px;font-size: 13px;}
+
+/*研习社未找到电子票*/
+.yxsNotFoundPage p{margin: 15px 0px 15px 0px}
+
+/*微包养pc首页*/
+.byIndexPage *{font-family: 微软雅黑;}
+.byIndexPage ul{list-style-type: none;padding: 0px;margin:0px;}
+.byIndexPage h3{color: #b47700;font-size: 17px;border-bottom: 2px #dcdcdc solid;padding-bottom: 10px;margin-bottom: 0px;}
+.byIndexPage .icon-teacher{background: url(img/teacher.png) no-repeat;padding-left: 25px;background-size: 19px}
+.byIndexPage .icon-hot{background: url(img/hot.png) no-repeat;padding-left: 25px;background-size: 15px}
+.byIndexPage .icon-time{background: url(img/time.png) no-repeat 0px 2px;padding-left: 20px;background-size: 15px}
+.byIndexPage .icon-location{background: url(img/location.png) no-repeat 0px 2px;padding-left: 15px;background-size: 15px}
+
+.byIndexPage .tabItem{display: none}
+.byIndexPage .tabItem.active{display: block}
+
+.byIndexPage .topBlock{font-weight: bold;font-size: 20px;color: #eb544a;padding: 10px 0px}
+.byIndexPage .topBlock span{color: black;padding-right: 10px;margin-right: 10px;border-right: 1px black solid}
+
+.byIndexPage .bannerBlock{background: #eb544a;padding: 15px 0px 20px 0px}
+.byIndexPage .banner img{width: 100%;}
+
+.byIndexPage .sloganBlock{padding: 35px 0px 35px 0px;}
+.byIndexPage .slogan{font-size: 25px;padding: 0px 25px 0px 28px;}
+.byIndexPage .slogan{background: url(img/quot.png) no-repeat;background-size: 20px;}
+
+.byIndexPage .teacherList{background:#fafafa;padding-bottom:20px}
+.byIndexPage .teacherList dl{margin-top: -8px;}
+.byIndexPage dd{float: left;padding: 0px 8px 0px 8px;background: #f8e9e8;width: 48.1%;margin: 5px;height:110px;overflow: hidden;position: relative;}
+.byIndexPage .avatar{float: left;padding-top: 15px;display: inline-block;margin-right: 13px;}
+.byIndexPage .avatar img{width: 60px;height: 60px;border-radius: 50%;border:2px #eb544a solid;}
+.byIndexPage .teacher_detail{width:78%;float: left;padding: 10px 10px 0px 10px}
+.byIndexPage .title{font-weight: bold;font-size: 14px;margin-top: 10px;}
+.byIndexPage .detail{height: 60px;overflow: hidden;}
+
+.byIndexPage .hotList h4{font-size: 16px;white-space: nowrap;overflow: hidden; text-overflow:ellipsis;}
+.byIndexPage .hotList li{border-bottom: 1px #dcdcdc solid;padding: 5px 0px 10px 0px}
+
+.byIndexPage .pictureTitle{border-bottom: 2px #dcdcdc solid;margin: 50px 0px 35px 0px}
+.byIndexPage .centerWrapper{position: relative;display: inline-block;}
+.byIndexPage .centerWrapper span{background:white;font-size:24px;position: absolute;bottom:-18px;display: inline-block;width: 96px;text-align: center;left: -48px;}
+
+.byIndexPage .pic_manage{clear: both;}
+.byIndexPage .pic_manage dd{width:32.2%;padding: 0px;text-align: center;height: auto;position: relative;height: 165px;}
+.byIndexPage .pic_manage dd img{width: 100%;height: 130px}
+.byIndexPage .pic_manage dd p{padding: 0px 10px 0px 10px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+
+.byIndexPage .carousel li{color:white;display: inline-block; width: 20px;height: 20px;border-radius: 50%;background: #a3a3a3;text-align: center;font-size: 12px;padding-top: 3px;cursor: pointer;}
+.byIndexPage .carousel li:hover{opacity: 0.8}
+.byIndexPage .carousel li.active{background: #eb544a}
+
+
+/*标准报名成功页面*/
+.signSucPage .g-list a{display: block;text-align: left;}
+.signSucPage .g-list .g-arrow-hide{display: none}
+.signSucPage .g-list img.uploadImg{max-width: 185px;max-height: 44px;}
+
+/*调查问卷成功页面*/
+.surveySucPage p{line-height: 23px;margin: 5px 0px 5px 0px}
+.surveySucPage .tip{padding-top:0px !important;margin-top:0px;}
+.surveySucPage .hb{background:#ff4540;text-align: center;position: 	relative;padding: 5px;}
+.surveySucPage .hb img.gift{width: 65px;}
+.surveySucPage .hb img.arrow{width: 15px;position:absolute;right:10px;top:25px;}
+.surveySucPage .prompt{color: rgb(168, 138, 138);text-align: center;}
+
+/*标准错误页面*/
+.StandardErrorPage .block {padding: 20px !important}
+.StandardErrorPage .block .tip{display: inline-block;width: 35px;height: 35px;background: url('img/tip.png') no-repeat;background-size: 100%;float: left;}
+.StandardErrorPage .block p{margin-left: 45px;}
+.StandardErrorPage .entrys{position: absolute;bottom: 5%;width: 100%;left: 0px;}
+.StandardErrorPage .entrys li{float: left;width: 50%;text-align: center;}
+.StandardErrorPage .entrys li img{width: 100px;margin-top: 50%;}
+/*留言列表*/
+.dsCommentsPage{font-size: 14px;padding: 0px;max-width: 780px}
+.dsCommentsPage header{background: #F4E9D7;padding: 10px 15px 10px 15px;font-size: 15px;font-weight: bold;}
+.dsCommentsPage header span{color: #B98219}
+.dsCommentsPage #commentList{padding-left: 15px;}
+.dsCommentsPage #commentList img{width: 50px;height: 50px;border-radius: 50%;float: left;}
+.dsCommentsPage #commentList p{margin-left: 70px;margin-bottom: 10px;word-break:break-all;}
+.dsCommentsPage #commentList .note{color: #B8B0B0;font-size: 14px}
+.dsCommentsPage #commentList{border-bottom: 1px #efefef solid;float: left;}
+.dsCommentsPage #commentList li{padding: 15px 10px 15px 0px;border-bottom: 1px #efefef solid;float: left;width: 100%;}
+.dsCommentsPage #commentList li:last-child{border-bottom: 0px;}
+
+.index-ad-box{margin-top:10px;}
+.index-ad-box img{width: 100%}
+
+/* 首页 - 推荐相见 */
+.xj-spread-dlg{
+    position: fixed;
+    left: 0;
+    height: 100%;
+    top: 0;
+    background-color: rgba(255,255,255,1.0);
+    z-index: 9999;
+    padding: 15px 25px 25px 25px;
+    text-align: center;
+    width: 100%;
+}
+
+.xj-spread-dlg .container{
+	max-width: 420px;
+	padding: 0;
+}
+
+.xj-spread-dlg img{
+	width: 	100%;
+}
+
+.xj-spread-dlg .bottom-text{
+    color: #96a5c1;
+    padding: 15px 15px 10px 15px;
+}
+
+.xj-spread-dlg .bottom-text .em{
+	color: #fa937c
+}
+
+.xj-spread-dlg .bottom-ops{
+	overflow: 	hidden;	
+}
+
+.xj-spread-dlg .bottom-ops li{
+	float: 	left;
+	width: 	50%;
+	padding: 0 10px;
+}
+
+.xj-spread-dlg a{
+	padding: 10px 20px;
+    border-radius: 9999px;
+    font-size: 17px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.xj-spread-dlg .btn-use-next-time{
+    color: #b3c4e6;
+    border: 1px #b3c4e6 solid;
+}
+
+.xj-spread-dlg .btn-try-use{
+    color: white;
+    border: 1px #28b5a4 solid;
+    background: #28b5a4
+}
+
+.xj-spread-dlg .bubble{
+    background-color: #F97254;
+    color: white;
+    width: 203px;
+    margin: 0 auto;
+    padding: 8px;
+    border-radius: 11px;
+    position: relative;
+    margin-top: 10px;;
+}
+
+.xj-spread-dlg .bubble:before{
+    content: '';
+    background: url('img/bubble.png') no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height: 15px;
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    margin-left: -15px;
+}
+
+@media(max-height: 430px){
+	.xj-spread-dlg img{
+		width: 70%;
+	}	
+}
